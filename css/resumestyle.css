@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px|Titillium+Web:400,700);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+
+body {
+  background: url("../img/paisley.png");
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 800px;
+  border: 1px solid #222;
+  padding: 2em;
+  background: #fff;
+  overflow: auto;
+}
+
+#container:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.clearfix {
+  overflow:auto;
+  zoom: 1;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(236,109,69);
+}
+
+address {
+  text-align: center;
+}
+
+a:link {
+  color: rgb(236,109,69);
+}
+
+a:visited {
+  color: rgb(236,109,69);
+}
+
+h2 {
+  color: rgb(236,109,69);
+}
+
+nav li{
+  font-family: 'Titillium Web', sans-serif;
+  display: inline;
+  margin-right: 50px;
+  color: rgb(120,270,203);
+}
+
+p, li {
+  font-family: 'Playfair Display', serif;
+  font-weight:400;
+}

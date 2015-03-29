@@ -1,0 +1,39 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+#container {
+ border:none;
+ }
+
+@page {
+  margin: 0.5in;
+}
+
+nav {
+  display:none;
+}
+
+h1 {
+  font-size:24pt;
+  font-family: serif;
+  color: black;
+}
+
+h2 {
+  font-size:18pt
+  font-family: serif;
+  color: black;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+  }
+
+footer p.web {
+  display: none;
+}
