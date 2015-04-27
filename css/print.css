@@ -35,5 +35,9 @@ a:link, a:visited {
   }
 
 footer p.web {
-  display: none;
-}
+    display: none;
+  }
+
+a[href^="http://"]:after { content: " (" attr(href) ") "; }
+
+​

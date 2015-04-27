@@ -4,7 +4,7 @@
 body {
   background: url("../img/paisley.png");
   font-family: 'Titillium Web', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #container {
@@ -28,13 +28,33 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   color: rgb(236,109,69);
 }
 
+
+h2 {
+  font-size: 25px;
+  text-align: left;
+  margin-top: 2em;
+  color: rgb(236,109,69);
+}
+
 address {
+  font-family: 'Playfair Display', serif;
   text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+nav li{
+  font-family: 'Titillium Web', sans-serif;
+  display: inline;
+  margin-right: 50px;
 }
 
 a:link {
@@ -45,18 +65,35 @@ a:visited {
   color: rgb(236,109,69);
 }
 
-h2 {
-  color: rgb(236,109,69);
-}
-
-nav li{
-  font-family: 'Titillium Web', sans-serif;
-  display: inline;
-  margin-right: 50px;
-  color: rgb(120,270,203);
-}
-
 p, li {
   font-family: 'Playfair Display', serif;
   font-weight:400;
 }
+
+
+img {
+  border: 1px solid #222;
+  float: left;
+  margin-right: 1em;
+
+}
+
+section {
+  clear: both;
+  margin-bottom: 1em;
+  overflow: auto;
+
+}
+
+section h2 {
+  margin-top: 0;
+
+}
+
+
+@media (max-width: 320px) {
+    #page {
+    margin: 36px auto;
+     width: 90%;
+  }
+<!-- end @media --!>}
